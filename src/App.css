@@ -1,0 +1,23 @@
+.popup {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background: white;
+  border: 2px solid #333;
+  padding: 2rem;
+  z-index: 1000;
+  width: 90%;
+  max-width: 400px;
+}
+@media (max-width: 600px) {
+  .popup {
+    top: 5%;
+    padding: 1rem;
+    max-width: 95vw;
+  }
+  nav button {
+    font-size: 1.2em;
+    margin: 0.2em;
+  }
+}
